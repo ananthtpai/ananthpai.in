@@ -18,6 +18,8 @@ const nextConfig = withMDX({
     loader: 'akamai',
     path: '',
   },
+  basePath: process.env.NODE_ENV === 'production' ? '/ananthpai.in' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ananthpai.in' : '',
 })
 
 module.exports = nextConfig
