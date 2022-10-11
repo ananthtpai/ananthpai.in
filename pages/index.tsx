@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             </nav>
           </header>
           <main className="my-3">
-            <section className="prose lg:prose-lg">
+            <section className="prose lg:prose-lg dark:prose-invert">
               <Intro />
             </section>
           </main>
